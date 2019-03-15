@@ -1,4 +1,4 @@
-package main
+package sample
 
 import "time"
 
@@ -6,6 +6,6 @@ import "time"
 //go:generate gotests -all -i -w ./
 //go:generate go test ./
 
-func Sampale(str string, num int, t time.Time) bool {
+func Sample(str string, num int, t time.Time) bool {
 	return true
 }
